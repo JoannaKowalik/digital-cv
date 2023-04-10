@@ -1,10 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GitHub CV</title>
+    <title>My CV</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+
+      .header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+
+      .header img {
+        width: 150px;
+        border-radius: 50%;
+        margin-right: 20px;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 36px;
+        font-weight: normal;
+      }
+
+      h2 {
+        margin: 0;
+        font-size: 24px;
+        font-weight: normal;
+        margin-bottom: 10px;
+      }
+
+      .education {
+        margin-bottom: 20px;
+      }
+
+      .project {
+        margin-bottom: 10px;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="my-photo.jpg" alt="My photo" />
+        <div>
+          <h1>Joanna Kowalik</h1>
+          <p>Hello, here's my CV.</p>
+        </div>
+      </header>
+      <section class="education">
+        <h2>Education</h2>
+        <ul>
+          <li>
+            Bachelor's Degree in Interior Design, Academy of Fine Arts in
+            Gdańsk, Poland
+          </li>
+          <li>
+            Bachelor's Degree in Architecture, University of Arts in Poznań,
+            Poland
+          </li>
+          <li>
+            Master's Degree in Architecture-Typology, Technical University of
+            Berlin, Germany
+          </li>
+          <li>
+            Digital Shapers Program in Web Development by TechLabs, Berlin
+          </li>
+        </ul>
+      </section>
+      <section class="projects">
+        <h2>Projects</h2>
+        <ul>
+          <li class="project">Geofree</li>
+          <li class="project">Wedding RSVP</li>
+          <li class="project">My portfolio</li>
+        </ul>
+      </section>
+    </div>
+  </body>
 </html>
