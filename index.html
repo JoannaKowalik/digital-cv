@@ -2,91 +2,264 @@
 <html>
   <head>
     <title>My CV</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <style>
-      body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-      }
-
-      .container {
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 20px;
-        box-sizing: border-box;
-      }
-
-      .header {
-        display: flex;
-        align-items: center;
-        margin-bottom: 20px;
-      }
-
-      .header img {
-        width: 150px;
-        border-radius: 50%;
-        margin-right: 20px;
-      }
-
-      h1 {
-        margin: 0;
-        font-size: 36px;
-        font-weight: normal;
-      }
-
-      h2 {
-        margin: 0;
-        font-size: 24px;
-        font-weight: normal;
-        margin-bottom: 10px;
-      }
-
-      .education {
-        margin-bottom: 20px;
-      }
-
-      .project {
-        margin-bottom: 10px;
+      html,
+      body,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Roboto", sans-serif;
       }
     </style>
   </head>
-  <body>
-    <div class="container">
-      <header class="header">
-        <img src="my-photo.jpg" alt="My photo" />
-        <div>
-          <h1>Joanna Kowalik</h1>
-          <p>Hello, here's my CV.</p>
+
+  <body class="w3-light-grey">
+    <!-- Page Container -->
+    <div class="w3-content w3-margin-top" style="max-width: 1400px">
+      <!-- The Grid -->
+      <div class="w3-row-padding">
+        <!-- Left Column -->
+        <div class="w3-third">
+          <div class="w3-white w3-text-grey w3-card-4">
+            <div class="w3-display-container">
+              <img
+                src="./images/Profile.jpg"
+                style="width: 100%"
+                alt="Avatar"
+              />
+              <!-- <div class="w3-display-bottomleft w3-container w3-text-white">
+                <h2>Joanna Kowalik</h2>
+              </div> -->
+            </div>
+            <div class="w3-container">
+              <p>
+                <i
+                  class="fa fa-home fa-fw w3-margin-right w3-large w3-text-indigo"
+                ></i
+                >Berlin, DE / Galway, IE
+              </p>
+              <p>
+                <i
+                  class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-indigo"
+                ></i
+                >joanna.kowalik@icloud.com
+              </p>
+              <p>
+                <i
+                  class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-indigo"
+                ></i
+                >+4915111583043
+              </p>
+              <hr />
+
+              <p class="w3-large">
+                <b
+                  ><i
+                    class="fa fa-asterisk fa-fw w3-margin-right w3-text-indigo"
+                  ></i
+                  >Skills</b
+                >
+              </p>
+              <p>HTML, CSS, JS</p>
+
+              <p>ReactJS, React Native</p>
+
+              <p>WordPress, WIX</p>
+
+              <p>Adobe Photoshop, Illustrator, InDesign</p>
+
+              <p>3D, AR/VR: Blender, 3DS Max, Unity</p>
+
+              <br />
+
+              <p class="w3-large w3-text-theme">
+                <b
+                  ><i
+                    class="fa fa-globe fa-fw w3-margin-right w3-text-indigo"
+                  ></i
+                  >Languages</b
+                >
+              </p>
+              <p>English - fluent</p>
+
+              <p>German - advanced</p>
+
+              <p>Polish - native</p>
+
+              <br />
+
+              <p class="w3-large w3-text-theme">
+                <b
+                  ><i
+                    class="fa fa-regular fa-music fa-fw w3-margin-right w3-text-indigo"
+                  ></i
+                  >Fun Stuff</b
+                >
+              </p>
+              <p>
+                I went to music school for classical singing - and still enjoy
+                singing and playing piano!
+              </p>
+
+              <p>I draw stuff - check out my Instagram!</p>
+
+              <p>
+                I volunteer at TechLabs - an educational NGO, bringing tech
+                skills to everyone for free!
+              </p>
+
+              <br />
+            </div>
+          </div>
+          <br />
+
+          <!-- End Left Column -->
         </div>
-      </header>
-      <section class="education">
-        <h2>Education</h2>
-        <ul>
-          <li>
-            Bachelor's Degree in Interior Design, Academy of Fine Arts in
-            Gdańsk, Poland
-          </li>
-          <li>
-            Bachelor's Degree in Architecture, University of Arts in Poznań,
-            Poland
-          </li>
-          <li>
-            Master's Degree in Architecture-Typology, Technical University of
-            Berlin, Germany
-          </li>
-          <li>
-            Digital Shapers Program in Web Development by TechLabs, Berlin
-          </li>
-        </ul>
-      </section>
-      <section class="projects">
-        <h2>Projects</h2>
-        <ul>
-          <li class="project">Geofree</li>
-          <li class="project">Wedding RSVP</li>
-          <li class="project">My portfolio</li>
-        </ul>
-      </section>
+
+        <!-- Right Column -->
+        <div class="w3-twothird">
+          <div class="w3-container w3-card w3-white w3-margin-bottom">
+            <h2 class="w3-text-grey w3-padding-16">
+              <i
+                class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-indigo"
+              ></i>
+              Hi, I'm Joanna Kowalik
+            </h2>
+            <div class="w3-container">
+              <h5 class="w3-opacity">
+                <b
+                  >I'm an architect by profession, trying to land my first job
+                  in Web Development.</b
+                >
+              </h5>
+            </div>
+            <div class="w3-container">
+              <p>
+                Consectetur adipisicing elit. Praesentium magnam consectetur vel
+                in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora
+                soluta ea et odio, unde doloremque repellendus iure, iste.
+              </p>
+              <hr />
+            </div>
+            <div class="w3-container">
+              <h5 class="w3-opacity">
+                <a href="https://superlative-blancmange-aaefdc.netlify.app/"
+                  >GEOFREE</a
+                >
+              </h5>
+              <h6 class="w3-text-indigo"></h6>
+              <p>
+                I was the idea creator and Front End Developer of the web app
+                Geofree. With a team of 6 - UX, DS and BE - we created and
+                deployed a functional map app of freebies, where users can post
+                and browse free stuff left in the streets of Berlin.
+              </p>
+              <br />
+            </div>
+
+            <div class="w3-container">
+              <h5 class="w3-opacity">
+                <a href="https://asiakacper.pl/">Wedding Webpage</a>
+              </h5>
+              <h6 class="w3-text-indigo"></h6>
+              <p>
+                I built an RSVP website for my brother's wedding - artwork is
+                also made by me!
+              </p>
+              <br />
+            </div>
+
+            <div class="w3-container">
+              <h5 class="w3-opacity">
+                <a href="https://www.joannakowalik.com/">My 3D Portfolio</a>
+              </h5>
+              <h6 class="w3-text-indigo"></h6>
+              <p>
+                I created an online portfolio for my own 3D visualization works.
+              </p>
+              <br />
+            </div>
+          </div>
+
+          <div class="w3-container w3-card w3-white">
+            <h2 class="w3-text-grey w3-padding-16">
+              <i
+                class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-indigo"
+              ></i
+              >Education
+            </h2>
+            <div class="w3-container">
+              <h5 class="w3-opacity"><b>Web Development Track</b></h5>
+              <h6 class="w3-text-indigo">
+                <i class="fa fa-calendar fa-fw w3-margin-right"></i>11.2022 -
+                04.2023
+              </h6>
+              <p>TechLabs Berlin</p>
+              <hr />
+            </div>
+            <div class="w3-container">
+              <h5 class="w3-opacity">
+                <b>Master of Science in Architecture</b>
+              </h5>
+              <h6 class="w3-text-indigo">
+                <i class="fa fa-calendar fa-fw w3-margin-right"></i>2018 - 2021
+              </h6>
+              <p>Technical University in Berlin, Germany</p>
+              <hr />
+            </div>
+            <div class="w3-container">
+              <h5 class="w3-opacity">
+                <b>Bachelor's Degree in Architecture</b>
+              </h5>
+              <h6 class="w3-text-indigo">
+                <i class="fa fa-calendar fa-fw w3-margin-right"></i>2012 - 2016
+              </h6>
+              <p>University of Fine Arts in Poznań, Poland</p>
+              <br />
+            </div>
+            <div class="w3-container">
+              <h5 class="w3-opacity">
+                <b>Bachelor's Degree in Interior Design</b>
+              </h5>
+              <h6 class="w3-text-indigo">
+                <i class="fa fa-calendar fa-fw w3-margin-right"></i>2009 - 2012
+              </h6>
+              <p>Academy of Fine Arts in Gdańsk, Poland</p>
+              <br />
+            </div>
+          </div>
+
+          <!-- End Right Column -->
+        </div>
+
+        <!-- End Grid -->
+      </div>
+
+      <!-- End Page Container -->
     </div>
+
+    <footer class="w3-container w3-indigo w3-center w3-margin-top">
+      <p>Find me on social media.</p>
+      <i class="fa fa-instagram w3-hover-opacity"></i>
+      <i class="fa fa-linkedin w3-hover-opacity"></i>
+      <p>
+        Powered by
+        <a href="https://www.w3schools.com/w3css/default.asp" target="_blank"
+          >w3.css</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
